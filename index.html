@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Music Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- <script src="script.js"></script> -->
+  
+</head>
+
+<body>
+  
+  
+  <div id="timer">
+    <p>POMODORO </p>
+    <p> <span id="time-left"></span></p>
+    <button id="start-stop">START</button>
+    <button id="reset">RESET</button>
+    <br>
+    <button id="minutes1">25 Minutes</button>
+    <button id="minutes2">40 Minutes</button>
+    <button id="hour">1 Hour</button>
+  </div>
+  
+  
+
+
+</body>
+<footer>
+  <div id="music-player">
+    <audio id="audio" src="/1 hour of popular anime songs but its lofi remix.mp3"></audio>
+    <div id="controls">
+      <button id="play-button">Play</button>
+      <button id="pause-button">Pause</button>
+      <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+  </div>
+
+</footer>
+<script src="app.js"></script>
+
+</html>
