@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Music Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- <script src="script.js"></script> -->
+  
+</head>
+
+<body>
+  <div id="thought">
+    <i><b>Don't let what you cannot do interfere with what you can do.</b></i> 
+  </div>
+  <div id="yes">
+    Time To Focus!
+    <br>
+    <button id="op1">25 Minutes</button>
+    <button id="op2">45 Minutes</button>
+    <div class="timer" id="timer">25:00</div>
+    <div class="controls">
+      <button class="button" id="startBtn">Start</button>
+      <button class="button" id="pauseBtn">Pause</button>
+      <button class="button" id="resetBtn">Reset</button>
+    </div>
+  </div>
+  <!-- <div id="addnewtask">
+    <br>
+    Add New Task
+    <br>
+    <button id="taskadder">+</button>
+  </div>
+  <div id="tasks">
+    <div class="task">1. Finish Homework</div>
+  </div> -->
+  <div id="music-player">
+    <audio id="audio" src="music.mp3"></audio>
+    <div id="controls">
+      <button id="play-button">Play</button>
+      <button id="pause-button">Pause</button>
+      <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+      <progress id="progress-bar" value="0" max="100"></progress>
+    </div>
+  </div>
+
+
+</body>
+<script src="/app.js"></script>
+
+</html>
